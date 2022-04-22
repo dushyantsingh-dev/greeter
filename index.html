@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- <div id="background">
+     </div> -->
+     <div class="header">
+          <div id="temprature"class="temprature">0°c</div>
+          <div id="date" class="date">0/00/0000</div>
+     </div>
+     <div id="content" class="content">
+          <div class="clock" id="clock">
+          </div>
+          <div class="greeting" id="greeting">
+               welcome! 
+          </div>
+          <div class="links">
+               <button id="stopwatchlinkfromhome" class="link"> stopwatch </button>
+               <button id="calculatorlinkfromhome" class="link">  calculator </button>
+          </div>
+     </div>
+
+     <div class="stopwatch" id="stopwatch">
+          <div class="stopwatch-inner">
+               <div id="elapsed"><h1>0.00</h1></div>
+               <div class="stopwatch-inner-buttons">
+                    <button id="start">Start</button>
+                    <button id="stop">Stop</button>
+                    <button id="reset">Reset</button>
+               </div>
+          </div>
+          <div id="stopwatchlinks" class="links">
+               <button id="homelinkfromstopwatch" class="link"> Home </button>
+               <button id="calculatorlinkfromstopwatch" class="link">  calculator </button>
+          </div>
+     </div>
+
+     <div class="calculator" id="calculator">
+          <div class="calculator-inner">
+                    <input type="text" name="screen" id="screen">
+                    <table>
+                        <tr>
+                            <td><button class="calculator-button">(</button></td>
+                            <td><button class="calculator-button">)</button></td>
+                            <td><button class="calculator-button">C</button></td>
+                            <td><button class="calculator-button">%</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="calculator-button">7</button></td>
+                            <td><button class="calculator-button">8</button></td>
+                            <td><button class="calculator-button">9</button></td>
+                            <td><button class="calculator-button">X</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="calculator-button">4</button></td>
+                            <td><button class="calculator-button">5</button></td>
+                            <td><button class="calculator-button">6</button></td>
+                            <td><button class="calculator-button">-</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="calculator-button">1</button></td>
+                            <td><button class="calculator-button">2</button></td>
+                            <td><button class="calculator-button">3</button></td>
+                            <td><button class="calculator-button">+</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="calculator-button">0</button></td>
+                            <td><button class="calculator-button">.</button></td>
+                            <td><button class="calculator-button">/</button></td>
+                            <td><button class="calculator-button">=</button></td>
+                        </tr>
+                    </table>
+            </div>
+          <div id="calculatorlinks" class="links">
+               <button id="homelinkfromcalculator" class="link"> Home </button>
+               <button id="stopwatchlinkfromcalculator" class="link"> stopwatch </button>
+          </div>
+     </div>
+     <script src="clock.js"></script>
+     <script src="greeting.js"></script>
+     <script src="date.js"></script>
+     <script src="temprature.js"></script>
+     <script src="changebackground.js"></script>
+     <script src="navigation.js"></script>
+     <script src="stopwatch.js"></script>
+     <script src="calculator.js"></script>
+</body>
+</html>
